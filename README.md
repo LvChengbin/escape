@@ -32,12 +32,14 @@ import escapeString from '@lvchengbin/escape/src/string';
 import escapeURL from '@lvchengbin/escape/src/url';
 ```
 
-We also provide files for using in browsers with `<script>` tag, you can get it here [escape.js](https://raw.githubusercontent.com/LvChengbin/sequence/master/dist/sequence.js), and if you want to use it in browsers not supporting ES5 syntax, please use [escape.bc.js](https://raw.githubusercontent.com/LvChengbin/sequence/master/dist/sequence.bc.js).
+We also provide files for using in browsers with `<script>` tag, you can get it here [escape.js](https://raw.githubusercontent.com/LvChengbin/escape/master/dist/escape.js), and if you want to use it in browsers not supporting ES5 syntax, please use [escape.bc.js](https://raw.githubusercontent.com/LvChengbin/escape/master/dist/escape.bc.js).
 
 ```html
+<script src="https://raw.githubusercontent.com/LvChengbin/escape/master/dist/escape.js"></script>
 ```
 
 ```html
+<script src="https://raw.githubusercontent.com/LvChengbin/escape/master/dist/escape.bc.js"></script>
 ```
 
 ## Usage
