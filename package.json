@@ -1,0 +1,58 @@
+{
+    "name": "@lvchengbin/escape",
+    "version": "0.0.1",
+    "description": "Promise/A+ implementation for browsers.",
+    "keywords": [
+        "escape",
+        "encode",
+        "encodeHTML",
+        "encodeURL",
+        "html",
+        "string",
+        "css",
+        "url",
+        "regexp",
+        "regex"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:LvChengbin/escape.git"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-es2015": "^6.24.1",
+        "eslint": "^4.14.0",
+        "jasmine-core": "^2.8.0",
+        "karma": "^2.0.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-es6-shim": "^1.0.0",
+        "karma-jasmine": "^1.1.1",
+        "karma-phantomjs-launcher": "^1.0.4",
+        "karma-rollup-preprocessor": "^5.0.2",
+        "optimist": "^0.6.1",
+        "pre-commit": "^1.2.2",
+        "puppeteer": "^0.13.0",
+        "rollup": "^0.53.3",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-node-resolve": "^3.0.2"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "test": "karma start",
+        "prepublish": "npm run build",
+        "lint": "eslint ./ --cache --ignore-path .eslintignore",
+        "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    },
+    "pre-commit": [
+        "precommit-msg",
+        "lint"
+    ],
+    "main": "dist/escape.cjs.js",
+    "jsnext:main": "src/index.js",
+    "author": "LvChengbin",
+    "license": "MIT",
+    "dependencies": {
+    }
+}
