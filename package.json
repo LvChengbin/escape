@@ -1,7 +1,7 @@
 {
     "name": "@lvchengbin/escape",
     "version": "0.0.1",
-    "description": "Promise/A+ implementation for browsers.",
+    "description": "A simple library for escaping specical characters in strings for HTML, CSS, RegExp, String, URL.",
     "keywords": [
         "escape",
         "encode",
@@ -53,6 +53,5 @@
     "jsnext:main": "src/index.js",
     "author": "LvChengbin",
     "license": "MIT",
-    "dependencies": {
-    }
+    "dependencies": {}
 }
