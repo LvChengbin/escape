@@ -1,5 +1,7 @@
 # escape
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/escape.svg)](https://greenkeeper.io/)
+
 A simple library for escaping specical characters in strings for HTML, CSS, RegExp, String, URL.
 
 ## Start
